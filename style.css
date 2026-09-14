@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'inter', sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+.nav-container {
+    height: 40px;
+    width: 100%;
+    background-color: #f8fafc;
+    filter: drop-shadow(0 0 0.75rem rgba(66, 64, 65, 0.17));
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container h2 {
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.nav-tab {
+    margin-right: 200px;
+    margin-top: 5px;
+}
+.nav-tab a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0f172a;
+}
+.info-container {
+    margin: 0px 200px;
+}
+.about {
+    display: flex;
+}
+.about h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 70px 20px;
+    padding: 0 100px;
+
+}
+.about img {
+    height: 195px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: 8px solid rgba(53, 50, 50, 0.246);
+    outline: #0f172a;
+    cursor: pointer;
+}
+.about h1 p {
+    font-size: 16px;
+    font-weight: normal;   
+}
+.about-me h2 {
+    text-decoration: underline;
+    text-decoration-color: rgba(94, 94, 222, 0.646);
+    text-underline-offset: 8px;
+}
+.card-container {
+    display: flex;
+    gap: 25px;
+}
+.about-me p {
+    margin-top: 10px;
+}
+.skill-info {
+    margin-top: 25px;
+}
+.skill-info h2 {
+    text-decoration: underline;
+    text-decoration-color: rgba(94, 94, 222, 0.571);
+    text-underline-offset: 8px;
+}
+.frontend-card {
+    border: 2px solid  rgba(94, 94, 222, 0.331);
+    width: 100%;
+    max-width: 150px;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 3px 8px;
+    box-shadow: 0px 2px 10px rgba(96, 93, 93, 0.509);
+}
+#front-head {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(94, 94, 222, 0.331);
+    padding: 5px;
+}
+#front-img {
+    width: 25px;
+}
+.frontend-card li {
+    list-style: none;
+    margin-top: 7px;
+}
+.contact-info h2 {
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgba(94, 94, 222, 0.571);
+    text-underline-offset: 8px;
+    display: flex;
+    justify-content: center;
+}
+.contact-info h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.contact-info h3 span {
+    font-size: 14px;
+}
+.contact {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
